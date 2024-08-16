@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #32d666 !important;
+    border-bottom: 5px solid #00a600;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff !important;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .nav-item {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        .nav-link {
+            color: #ffffff !important;
+        }
+
+    }
+
+    .dropdown {
+        color: #ffffff;
+    }
+
+    .dropdown:hover, .nav-item:hover {
+        background-color: #00a900;
+        transition: 0.2s;
+    }
+
+    .logout:hover {
+        background-color: #dc3545 !important;
+        transition: 0.2s;
+    }
+}
+
+.NameTime {
+    background-color: #062a66 !important;
+    color: #ffffff !important;
+    padding: 0.5rem 0rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #5cb85c;
+    border-color: #00a900;
+}
+
+.btn-primary:hover {
+    background-color: #00a900;
+    border-color: #00a900;
+}
+
+textarea {
+    resize: none;
+ }
